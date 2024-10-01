@@ -56,7 +56,7 @@ chromiumExecutable = {
 
 def current_platform() -> str:
     """Get current platform name by short string."""
-    if sys.platform.startswith('linux') and platform.uname().machine.startswith('armv'):
+    if sys.platform.startswith('linux') and platform.uname().machine == "aarch64":
         return 'arm_linux'
     elif sys.platform.startswith('linux'):
         return 'linux'
