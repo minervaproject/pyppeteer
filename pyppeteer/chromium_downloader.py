@@ -46,7 +46,7 @@ downloadURLs = {
 }
 
 chromiumExecutable = {
-    'arm_linux': Path('/usr/bin/chromium-browser'),
+    'arm_linux': Path('/usr/bin/chromium'),
     'linux': DOWNLOADS_FOLDER / REVISION / 'chrome-linux' / 'chrome',
     'mac': (DOWNLOADS_FOLDER / REVISION / 'chrome-mac' / 'Chromium.app' / 'Contents' / 'MacOS' / 'Chromium'),
     'win32': DOWNLOADS_FOLDER / REVISION / windowsArchive / 'chrome.exe',
